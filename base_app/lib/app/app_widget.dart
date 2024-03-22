@@ -18,7 +18,7 @@ class AppWidget extends StatelessWidget {
           GlobalMaterialLocalizations.delegate,
           GlobalWidgetsLocalizations.delegate
         ],
-        supportedLocales: const [Locale('pt', 'BR')],
+        supportedLocales: const [Locale('pt', 'BR'), Locale('en', 'US')],
         debugShowCheckedModeBanner: false,
         routerConfig: Modular.routerConfig);
   }

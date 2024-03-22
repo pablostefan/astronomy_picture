@@ -1,5 +1,6 @@
 name: module_welcome
 description: "Module for first contact with user."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
@@ -10,6 +11,12 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.6
+
+  module_external_dependencies:
+    path: '../module_external_dependencies'
+
+  module_commons:
+    path: '../module_commons'
 
 dev_dependencies:
   flutter_test:
